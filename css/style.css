@@ -11,6 +11,8 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    /* grid-template-columns: minmax(20px, 1fr) repeat(6, minmax(0, 60px)) minmax(20px, 1fr); */
+
     place-items: center;
     gap: 20px;
 }
